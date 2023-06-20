@@ -25,3 +25,7 @@ $(document).ready(function () {
   //      $(this).children('ul').stop(false, true).fadeIn(300);
   //  });
 //});
+
+for (let i = 1; i <= 10; i++) {
+    document.write(bar + ' ' + i + '<br>');
+}
